@@ -606,8 +606,12 @@ s = 'chandan likes nivedita'
 # print(result2)
 # print(result3)
 
-print([2,3,1]+['chandan'])
-s = [2,3,1],['chandan']
-print(s)
-print([2,3,1],['chandan'])
+# print([2,3,1]+['chandan'])
+# s = [2,3,1],['chandan']
+# print(s)
+# print([2,3,1],['chandan'])
 
+
+# split() function splits a sentence into a list of words
+# split()[::-1] reverses this list that was created
+# list(string_s) creates a list of characters the string contains. the string might be a sentence too!
