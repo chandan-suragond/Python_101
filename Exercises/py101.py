@@ -615,3 +615,11 @@ s = 'chandan likes nivedita'
 # split() function splits a sentence into a list of words
 # split()[::-1] reverses this list that was created
 # list(string_s) creates a list of characters the string contains. the string might be a sentence too!
+
+# list comprehension
+
+# with else:
+# li = [expression_if_true if condition else expression_if_false for item in iterable]
+
+# without else:
+# [expression for item in iterable if condition]
