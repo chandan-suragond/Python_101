@@ -40,7 +40,7 @@
 # print(lambda_func(2,2))
 
 
-l = ["1", "2", "9", "0", "-1", "-2"]
+# l = ["1", "2", "9", "0", "-1", "-2"]
 # # added 10 to each item after type
 # # casting to int, then convert items to string again
 # print("Operation on each item using lambda and map()", list(map(lambda x: str(int(x) + 10), l)))
@@ -142,9 +142,9 @@ s = 'chandan likes nivedita'
 # print("prints entire string: ",s[:]) #prints entire string
 # print("prints from third character to second last character (not including): ",s[3:-2]) #prints from third character to second last character (not including)
 '''string reversal - 1'''
-# print("reverses the string: ",s[::-1]) #reverses the string
-# print("writes the string as it is: ",end='') #usage of end in print
-# print(s[::1]) #writes the string as it is
+print("reverses the string: ",s[::-1]) #reverses the string
+print("writes the string as it is: ",end='') #usage of end in print
+print(s[::1]) #writes the string as it is
 
 '''string reversal - 2'''
 # def reverse_func(str):

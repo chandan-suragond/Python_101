@@ -5,3 +5,7 @@ def beautifulDays(i, j, k):
     return len(beautdays)
     
 print(beautifulDays(13, 45, 3))
+
+
+s = 13
+print(''.join(reversed(str(s))))
