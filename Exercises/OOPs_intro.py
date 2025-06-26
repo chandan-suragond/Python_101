@@ -1,12 +1,37 @@
 # This code is designed to analyze a string and find various character types within it.
 # It includes methods to find alphabets, digits, special characters, uppercase letters, lowercase letters, and the length of the string.
 # The main function prompts the user for input and creates an instance of the Intro class to perform the analysis.
- 
+
 class Intro:
+    """
+    A class to analyze a string and identify various character types within it.
+
+    Attributes:
+        s (str): The string to be analyzed.
+
+    Methods:
+        find_alphabet(): Prints all alphabetic characters in the string.
+        find_digit(): Prints all digit characters in the string.
+        find_special(): Prints all special (non-alphanumeric) characters in the string.
+        find_uppercase(): Prints all uppercase alphabetic characters in the string.
+        find_lowercase(): Prints all lowercase alphabetic characters in the string.
+        find_length(): Prints the length of the string.
+    """
+
     def __init__(self, s):
+        """
+        Initializes the Intro object with the provided string.
+
+        Args:
+            s (str): The string to be analyzed.
+        """
         self.s = s
 
     def find_alphabet(self):
+        """
+        Prints all alphabetic characters in the string.
+        If no alphabetic characters are found, prints a message indicating so.
+        """
         count = 0
         for i in self.s:
             if i.isalpha():
@@ -18,6 +43,10 @@ class Intro:
             print()
         
     def find_digit(self):
+        """
+        Prints all digit characters in the string.
+        If no digits are found, prints a message indicating so.
+        """
         count = 0
         for i in self.s:
             if i.isdigit():
@@ -29,6 +58,10 @@ class Intro:
             print()
 
     def find_special(self):
+        """
+        Prints all special (non-alphanumeric) characters in the string.
+        If no special characters are found, prints a message indicating so.
+        """
         count = 0
         for i in self.s:
             if not i.isalnum():
@@ -40,6 +73,10 @@ class Intro:
             print()
 
     def find_uppercase(self):
+        """
+        Prints all uppercase alphabetic characters in the string.
+        If no uppercase letters are found, prints a message indicating so.
+        """
         count = 0
         for i in self.s:
             if i.isupper():
@@ -51,6 +88,10 @@ class Intro:
             print()
 
     def find_lowercase(self):
+        """
+        Prints all lowercase alphabetic characters in the string.
+        If no lowercase letters are found, prints a message indicating so.
+        """
         count = 0
         for i in self.s:
             if i.islower():
@@ -62,6 +103,9 @@ class Intro:
             print()
 
     def find_length(self):
+        """
+        Prints the length of the string.
+        """
         print("Length of the string is:", len(self.s))
 
 def main():
